@@ -42,6 +42,12 @@ export default function Home() {
               width={500}
               height={500}
             />
+            {/* Author Details */}
+            <div>
+              <p className='text-sm font-bold text-gray-600'>Hassan Ali Khan</p>
+              <span className='text-sm text-gray-400'>28 Jun 2020</span>
+            </div>
+            ;
           </div>
         </div>
       </div>
