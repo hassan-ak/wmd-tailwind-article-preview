@@ -25,6 +25,12 @@ export default function Home() {
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
           </h2>
+          {/* Description Detail */}
+          <p className='mt-3 text-sm text-gray-500'>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I&#39;ve got some simple tips to
+            help you make any room feel complete.
+          </p>
         </div>
       </div>
     </div>
