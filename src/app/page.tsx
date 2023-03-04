@@ -47,7 +47,15 @@ export default function Home() {
               <p className='text-sm font-bold text-gray-600'>Hassan Ali Khan</p>
               <span className='text-sm text-gray-400'>28 Jun 2020</span>
             </div>
-            ;
+            {/* Share Button */}
+            <div className='ml-auto flex-shrink-0 rounded-full bg-gray-200 p-3 hover:cursor-pointer'>
+              <Image
+                src='https://res.cloudinary.com/thirus/image/upload/v1632854290/logos/icon-share_frvrfu.svg'
+                alt=''
+                width={15}
+                height={15}
+              ></Image>
+            </div>
           </div>
         </div>
       </div>
