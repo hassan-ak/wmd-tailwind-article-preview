@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import profileImage from '../../public/profile1.png';
 
 export default function Home() {
   return (
@@ -31,6 +32,17 @@ export default function Home() {
             felt slightly bare and uninviting. I&#39;ve got some simple tips to
             help you make any room feel complete.
           </p>
+          {/* Autohor detail */}
+          <div className='mt-6 flex items-center leading-none'>
+            {/* Author Image */}
+            <Image
+              src={profileImage}
+              alt='Profile Image'
+              className='mr-4 h-11 w-11 rounded-full'
+              width={500}
+              height={500}
+            />
+          </div>
         </div>
       </div>
     </div>
