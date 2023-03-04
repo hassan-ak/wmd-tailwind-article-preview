@@ -1,5 +1,4 @@
 import React from 'react';
-import profileImage from '../../public/profile1.png';
 import Image from 'next/image';
 
 export default function Home() {
@@ -18,6 +17,14 @@ export default function Home() {
             className='h-full w-full rounded-t-xl md:rounded-r-none md:rounded-l-xl'
             priority={true}
           ></Image>
+        </div>
+        {/* Right/Bottom Description Section */}
+        <div className='basis-3/5 p-9'>
+          {/* Description Heading*/}
+          <h2 className='text-base font-bold leading-snug text-gray-600 sm:text-[1.4rem]'>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
         </div>
       </div>
     </div>
