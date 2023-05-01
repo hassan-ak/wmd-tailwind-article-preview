@@ -1,61 +1,53 @@
 import React from 'react';
 import Image from 'next/image';
 import profileImage from '../../public/profile1.png';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     // Main container
-    <div className='flex min-h-screen items-center justify-center bg-gradient-to-br from-[#F6D365] to-[#FDA085] p-6 sm:p-12'>
+    <div className='flex min-h-screen items-center justify-center bg-gradient-to-br from-[#D4FC79] to-[#96E6A1] p-6 sm:p-12'>
       {/* Card Container */}
       <div className='flex max-w-[24rem] flex-col rounded-xl bg-white sm:max-w-xl md:max-w-3xl md:flex-row'>
-        {/* Left/Top Image */}
-        <div className='basis-2/5 object-cover'>
-          <Image
-            src='https://res.cloudinary.com/thirus/image/upload/v1632854291/logos/drawers_gr2wn5.jpg'
-            alt='Furniture'
-            width={650}
-            height={650}
-            className='h-full w-full rounded-t-xl md:rounded-r-none md:rounded-l-xl'
-            priority={true}
-          ></Image>
-        </div>
-        {/* Right/Bottom Description Section */}
-        <div className='basis-3/5 p-9'>
-          {/* Description Heading*/}
-          <h2 className='text-base font-bold leading-snug text-gray-600 sm:text-[1.4rem]'>
-            Shift the overall look and feel by adding these wonderful touches to
-            furniture in your home
-          </h2>
-          {/* Description Detail */}
-          <p className='mt-3 text-sm text-gray-500'>
-            Ever been in a room and felt like something was missing? Perhaps it
-            felt slightly bare and uninviting. I&#39;ve got some simple tips to
-            help you make any room feel complete.
-          </p>
-          {/* Autohor detail */}
-          <div className='mt-6 flex items-center leading-none'>
-            {/* Author Image */}
-            <Image
-              src={profileImage}
-              alt='Profile Image'
-              className='mr-4 h-11 w-11 rounded-full'
-              width={500}
-              height={500}
-            />
-            {/* Author Details */}
-            <div>
-              <p className='text-sm font-bold text-gray-600'>Hassan Ali Khan</p>
-              <span className='text-sm text-gray-400'>28 Jun 2020</span>
+        <div>
+          <h1 className='my-5 text-center text-5xl font-extrabold'>
+            CSS Flex & Grid
+          </h1>
+          <div className='mb-5 h-2 bg-gray-700'></div>
+          <div className='flex flex-wrap justify-around'>
+            {/* Flex Examples */}
+            <div className='p-5'>
+              <h1 className='text-xl font-semibold'>Flex Examples</h1>
+              <ul className='list-decimal px-10'>
+                <li>
+                  <Link href='article'>Article Preview</Link>
+                </li>
+                <li>
+                  <Link href='report'>Fitness Report</Link>
+                </li>
+                <li>
+                  <Link href='tweet'>Single Tweet</Link>
+                </li>
+              </ul>
             </div>
-            {/* Share Button */}
-            <div className='ml-auto flex-shrink-0 rounded-full bg-gray-200 p-3 hover:cursor-pointer'>
-              <Image
-                src='https://res.cloudinary.com/thirus/image/upload/v1632854290/logos/icon-share_frvrfu.svg'
-                alt=''
-                width={15}
-                height={15}
-              ></Image>
+            {/* Grid Examples */}
+            <div className='p-5'>
+              <h1 className='text-xl font-semibold'>Grid Examples</h1>
+              <ul className='list-decimal px-10'>
+                <li>
+                  <Link href='services'>Services Section</Link>
+                </li>
+                <li>
+                  <Link href='twitter-summary'>
+                    Twitter Monthly Summary Card
+                  </Link>
+                </li>
+                <li>
+                  <Link href='smd'>Social Media Dashboard</Link>
+                </li>
+              </ul>
             </div>
+            {/*  */}
           </div>
         </div>
       </div>

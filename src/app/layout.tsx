@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Article Preview',
-  description: 'Article Preview card built using Tailwind',
+  title: 'Flex & Grid',
+  description: 'Flex and Grid examples built using Tailwind',
 };
 
 export default function RootLayout({
