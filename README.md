@@ -1,10 +1,13 @@
-# Article Preview Card
+# Flex and Grid Examples
 
-A Article Preview card build using NextJS and Tailwind CSS and deployed on vercel.
+Examples built using NextJS and Tailwind CSS and deployed on vercel.
 
-### App Requirement
-
-- The required design is available [here](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT)
+1. Article Preview
+2. Fitness Report
+3. Single Tweet
+4. Services Section
+5. Twitter Monthly Summary Card
+6. Social Media Dashboard
 
 ### Framework and libraries
 
@@ -15,6 +18,6 @@ A Article Preview card build using NextJS and Tailwind CSS and deployed on verce
 
 ### Deployment
 
-- This Article Preview card is deployed on vercel and can be accessed by visiting following [URL](https://wmd-tailwind-article-preview.vercel.app/)
+- This example is deployed on vercel and can be accessed by visiting following [URL](https://wmd-tailwind-flex-grid-examples.vercel.app/)
 
-  - https://wmd-tailwind-article-preview.vercel.app/
+  - https://wmd-tailwind-flex-grid-examples.vercel.app/
